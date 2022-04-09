@@ -102,7 +102,6 @@ class Register extends Component {
             style={styles.textInput}
             textContentType="prenom"
             placeholder="Your first name"
-            /*onBlur={() => this.prenomValidator()}*/
             onChangeText={text => {
               this.setState({prenom: text});
             }}
